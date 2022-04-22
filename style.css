@@ -1,0 +1,78 @@
+/* da sredam sec1 */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    padding: 16px 100px;
+    background-color: #1f2937;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.sec1-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+a, .hero-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    font-weight: 1000;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sec1 {
+    display: flex;    
+    padding: 70px 100px;
+    background-color: #1f2937;
+    gap: 16px;
+}
+
+.left, .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.sec1-img {
+    width: 100%;
+    height: auto; /* da sredam ovde da ima slikata ista visina so sekcijata */
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    box-shadow: 0px transparent;
+    border: 0px solid transparent;
+    font-weight: 700;
+}
