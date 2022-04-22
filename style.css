@@ -6,7 +6,7 @@
 .header {
     display: flex;
     justify-content:space-between;
-    padding: 16px 100px;
+    padding: 16px 100px 0px 100px;
     background-color: #1f2937;
 }
 
@@ -48,6 +48,49 @@ li {
     gap: 16px;
 }
 
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 100px 70px 100px;
+}
+
+.top {
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 150px;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    max-width: 85%;
+    padding: 16px;
+    border: 3px solid #3882F6;
+}
+
+.card-img {
+    max-width: 50%;
+}
+
 .left, .right {
     flex: 1;
     display: flex;
@@ -75,4 +118,11 @@ button {
     box-shadow: 0px transparent;
     border: 0px solid transparent;
     font-weight: 700;
+}
+
+.info-text {
+    max-width: 100%;
+    font-size: 18px;
+    color: #3882F6;
+    text-align: justify;
 }
